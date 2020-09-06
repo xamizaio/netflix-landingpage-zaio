@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 10.5px;
+    }
+    .menu-area .logo img{
+        height: 35px;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-container input {
+        width: 330px;
+        height: 48px;
+    }
+
+    .banner-container button {
+        width: 150px;
+        height: 40px;
+    }
+
+    .tv-container .tv-image img {
+        width: 100%;
+    }
+
+    .tv-container .video video {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 20px 25px;
+    }
+    .footer .hyperlinks .col {
+        /* padding-right: 100px; */
+        width: calc(100% / 2);
+    } 
+
+}
